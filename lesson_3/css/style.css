@@ -1,0 +1,63 @@
+@import url("reset.css");
+.block {
+   color:red;
+}
+p {
+	color: rgb(218, 71, 8);
+}
+a {
+	color: rgb(76, 0, 255);
+}
+.text {
+	color: red;
+}
+.title {
+	color: fuchsia;
+}
+.link {
+	color: hsl(109, 90%, 16%);
+}
+.block p {
+	color: blueviolet;
+}
+.lesson * {
+	color: red;
+}
+.lesson p {
+	color: hsl(56, 99%, 49%);
+}
+.lesson > p {
+	color: orangered;
+}
+.lesson .blue-text {
+	color: yellowgreen;
+}
+.sub-title {
+	color: hsla(213, 93%, 53%, 0.858);
+}
+li {
+	color: rgb(8, 247, 100);
+}
+.lesson a {
+	color: rgb(0, 4, 255);
+}
+#some-id {
+	color: brown;
+}
+.blue-text + p {
+	color: pink;
+}
+[class*="xt"] {
+	color: black;
+}
+.page__text.text {
+	color: rgb(182, 127, 255);
+}
+.lesson,
+.title,
+h1 {
+	color: rgb(72, 0, 255);
+}
+.lesson ~ p {
+	color: rgb(14, 15, 15);
+}
