@@ -2,21 +2,19 @@
 
 /* Google Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');  
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');  
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');  
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Quicksand:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Quicksand:wght@500&family=Smooch&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Cedarville+Cursive&family=Quicksand:wght@500&family=Smooch&display=swap");
 
-
-@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap"); 
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+Khojki&display=swap"); 
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+Khojki&display=swap");
 
 @import url("https://fonts.googleapis.com/css?family=Milonga:regular&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Overlock:italic&display=swap");
-
 
 @import url("fonts.css");
 
@@ -31,68 +29,68 @@ body {
 }
 
 .title {
-   font-family: "Akaya Kanadaka", sans-serif;
-   text-shadow: 5px 5px 15px red ;
-   font-size: 64px;
-   text-align: center;
-   font-weight: 700;
-   letter-spacing: 10px;
-   color: #0d1216;
+	font-family: "Akaya Kanadaka", sans-serif;
+	text-shadow: 5px 5px 15px red;
+	font-size: 64px;
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: 10px;
+	color: #0d1216;
 }
 
 .menu-style ~ p {
-   font-family: "Akaya Kanadaka", sans-serif;
-   text-shadow: 5px 5px 15px red ;
-   font-size: 30px;
-   text-align: center;
-   font-weight: 400;
-   letter-spacing: 10px;
-   color: rgb(66, 1, 128);
+	font-family: "Akaya Kanadaka", sans-serif;
+	text-shadow: 5px 5px 15px red;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 400;
+	letter-spacing: 10px;
+	color: rgb(66, 1, 128);
 }
 
 .image {
-text-align: center;
+	text-align: center;
 }
 
 .menu-style a {
-   font-family: "Quicksand", sans-serif;
-   font-weight: 400;
-   font-size: 16px;
-   color: brown;
+	font-family: "Quicksand", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: brown;
 }
 
 .sub-title {
-   font-family: "Cedarville Cursive", sans-serif;
-   font-weight: 500;
-   font-size: 40px;
-   text-transform: capitalize;
-   text-align: right;
-   color: rgb(205, 50, 66); 
+	font-family: "Cedarville Cursive", sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	text-transform: capitalize;
+	text-align: right;
+	color: rgb(205, 50, 66);
 }
 
 .text > p {
-   font-family: "Akaya Kanadaka", sans-serif;
-   font-size: 20px;
-   font-weight: 400;
-   font-style: oblique;
-   word-spacing: 10px;
-   color: rgb(20, 1, 128);
+	font-family: "Akaya Kanadaka", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: oblique;
+	word-spacing: 10px;
+	color: rgb(20, 1, 128);
 }
 .sub-title1 {
-   font-family: "Milonga", sans-serif;
-   font-size: 40px;
-   font-style: italic;
-   font-weight: 400;
-   text-align: center;
-   text-decoration: none;
-   line-height: 1.2;
-   color: brown;
-   margin-bottom: 0;
-   text-transform: none;
+	font-family: "Milonga", sans-serif;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+	line-height: 1.2;
+	color: brown;
+	margin-bottom: 0;
+	text-transform: none;
 }
 
 .footer ul {
-   color: chocolate;
+	color: chocolate;
 }
 
 #some-id {
@@ -102,7 +100,7 @@ text-align: center;
 	text-decoration: none;
 	font-style: oblique;
 	text-transform: lowercase;
-   color: darkgoldenrod;
+	color: darkgoldenrod;
 }
 
 #some-id2 {
@@ -112,52 +110,52 @@ text-align: center;
 	text-decoration: none;
 	font-style: oblique;
 	text-transform: lowercase;
-   color: crimson;
+	color: crimson;
 }
 
 .footer a {
 	text-transform: capitalize;
 	font-size: 16px;
 	font-style: italic;
-   color: blue;
+	color: blue;
 }
 
 .link {
-   color: darkmagenta;
+	color: darkmagenta;
 }
 
 h3 {
-   font-size: 40px;
-   font-style: normal;
-   font-weight: 400;
-   text-align: center;
-   text-decoration: none;
-   line-height: 1.2;
-   /* LH/FS=48/40=1.2 */
-   margin-bottom: 0;
-   text-transform: none;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+	line-height: 1.2;
+	/* LH/FS=48/40=1.2 */
+	margin-bottom: 0;
+	text-transform: none;
 }
 
 div.text2 {
-   font-size: 16px;
-   font-style: normal;
-   font-weight: 400;
-   text-align: left;
-   text-decoration: none;
-   line-height: 1.875;
-   /* LH/FS=30/16=1.875 */
-   margin-bottom: 10px;
-   text-transform: none;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+	text-decoration: none;
+	line-height: 1.875;
+	/* LH/FS=30/16=1.875 */
+	margin-bottom: 10px;
+	text-transform: none;
 }
 
 .link1 {
-   font-size: 40px;
-   font-style: normal;
-   font-weight: 400;
-   text-align: left;
-   text-decoration: none;
-   line-height: 1.2;
-   /* LH/FS=48/40=1.2 */
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+	text-decoration: none;
+	line-height: 1.2;
+	/* LH/FS=48/40=1.2 */
 	margin-bottom: 0;
 	text-transform: none;
 }
@@ -173,35 +171,24 @@ div.text3 {
 	text-transform: none;
 }
 
-h4 {
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 400;
-	text-decoration: none;
-	line-height: 1.4;
-	/* LH/FS=28/20=1.4 */
-	margin-bottom: 0px;
-	text-transform: none;
-}
-
 .list {
-font-family: "Overlock", sans-serif;
+	font-family: "Overlock", sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	text-decoration: underline;
 	font-style: italic;
-   color: yellowgreen; 
+	color: yellowgreen;
 }
 
 [class*="sp"] {
 	text-decoration: line-through;
-	color: rgb(205, 50, 156); 
+	color: rgb(205, 50, 156);
 }
 
 span {
 	text-decoration: line-through;
 	text-decoration-color: red;
-	color: rgb(78, 50, 205); 
+	color: rgb(78, 50, 205);
 }
 
 .sub-title2 {
@@ -211,7 +198,7 @@ span {
 	text-decoration: none;
 	font-style: oblique;
 	text-transform: lowercase;
-   color: rgb(58, 50, 205); 
+	color: rgb(58, 50, 205);
 }
 
 .list1 h4 {
@@ -221,7 +208,7 @@ span {
 	text-decoration: none;
 	font-style: oblique;
 	text-transform: lowercase;
-   color: rgb(58, 50, 205); 
+	color: rgb(58, 50, 205);
 }
 .list1 p {
 	font-family: "Quicksand", sans-serif;
@@ -236,5 +223,16 @@ span {
 	font-size: 16px;
 	font-style: oblique;
 	text-transform: uppercase;
-   color: rgb(205, 50, 120); 
+	color: rgb(205, 50, 120);
+}
+
+.text4 p {
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 1.4;
+	/* LH/FS=28/20=1.4 */
+	margin-bottom: 0px;
+	text-transform: none;
 }
