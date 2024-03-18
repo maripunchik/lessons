@@ -229,7 +229,7 @@ span {
 .text4 p {
 	font-size: 20px;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: 400;
 	text-decoration: none;
 	line-height: 1.4;
 	/* LH/FS=28/20=1.4 */
