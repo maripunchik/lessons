@@ -2,8 +2,8 @@
 
 /* Google Fonts */
 
-/@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');  
-/@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');  
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');  
 
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Quicksand:wght@700&display=swap");
@@ -87,7 +87,6 @@ text-align: center;
    text-decoration: none;
    line-height: 1.2;
    color: brown;
-   margin-top: 0;
    margin-bottom: 0;
    text-transform: none;
 }
@@ -135,9 +134,8 @@ h3 {
    text-decoration: none;
    line-height: 1.2;
    /* LH/FS=48/40=1.2 */
-   margin-top: 0;
-margin-bottom: 0;
-text-transform: none;
+   margin-bottom: 0;
+   text-transform: none;
 }
 
 div.text2 {
@@ -148,7 +146,6 @@ div.text2 {
    text-decoration: none;
    line-height: 1.875;
    /* LH/FS=30/16=1.875 */
-   margin-top: 0;
    margin-bottom: 10px;
    text-transform: none;
 }
@@ -161,7 +158,6 @@ div.text2 {
    text-decoration: none;
    line-height: 1.2;
    /* LH/FS=48/40=1.2 */
-	margin-top: 0;
 	margin-bottom: 0;
 	text-transform: none;
 }
@@ -171,7 +167,6 @@ div.text3 {
 	font-style: normal;
 	font-weight: 400;
 	text-decoration: none;
-	margin-top: 0;
 	line-height: 30px;
 	/* LH/FS=30/16=1.875 */
 	margin-bottom: 10px;
@@ -183,7 +178,6 @@ h4 {
 	font-style: normal;
 	font-weight: 400;
 	text-decoration: none;
-	margin-top: 0;
 	line-height: 1.4;
 	/* LH/FS=28/20=1.4 */
 	margin-bottom: 0px;
