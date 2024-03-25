@@ -1,0 +1,861 @@
+/* ШРИФТИ */
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+
+
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Quicksand:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Quicksand:wght@500&family=Smooch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Cedarville+Cursive&family=Quicksand:wght@500&family=Smooch&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+Khojki&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Milonga:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Overlock:italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular&display=swap");
+
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	background-color: #f6f3f3;
+	padding: 2px 0px;
+	color: #2b2929;
+}
+
+.header {
+	font-weight: 400;
+	font-size: 0;
+	width: 100%;
+	width: 100%;
+	min-width: 1500px;
+	box-sizing: border-box;
+	overflow: hidden;
+	width: 1290px;
+	margin: 0 10px 0 30px;
+	display: inline-block;
+	background-image: url("../img/lesson6img/fon-s-knigami-dlya-teksta.jpg");
+}
+
+.image {
+	max-width: 1400px;
+	width: 100%;
+	display: inline-block;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #f1eded;
+}
+
+.link-krovato {
+	padding: 15px;
+}
+
+.link {
+	padding: 20px;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 20px;
+	letter-spacing: 5px;
+	display: inline-block;
+	margin-bottom: 20px;
+	border-radius: 30px;
+	box-shadow: 0 5px 0px #000000;
+	background-color: #db7816;
+}
+
+.link:hover {
+	margin-top: 3px;
+	box-shadow: 0 2px 0px #000000;
+}
+
+.menu-style {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	max-width: 1400px;
+	height: 700px;
+	width: 100%;
+	margin: 10px;
+	font-style: italic;
+	line-height: 1.25;
+	text-align: left;
+	background: url("../img/сhurchill.jpg") 0 0/auto no-repeat scroll;
+	background-size: cover;
+	color: #f1eded;
+}
+
+.nav-list {
+	width: 700px;
+}
+
+.title-quote {
+	max-width: 1400px;
+	height: 1000px;
+	width: 100%;
+	margin: 0 10px;
+	background-image: linear-gradient(55.95deg, #d0c391 0%, #9f855c 100%);
+
+}
+
+.title {
+	font-family: "Akaya Kanadaka", sans-serif;
+	text-shadow: 5px 5px 15px #ff0000;
+	font-size: 50px;
+	font-weight: 700;
+	width: 900px;
+	letter-spacing: 10px;
+	text-align: center;
+	margin: 0 auto;
+	color: #0d1216;
+}
+
+.image1 {
+	text-align: center;
+	min-width: 400px;
+	vertical-align: middle;
+}
+
+.picture {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.page {
+	width: 100%;
+	width: 2000px;
+	margin: 40px 60px;
+}
+
+.text {
+	width: 1000px;
+	height: 700px;
+	width: 100%;
+	overflow: hidden;
+	font-size: 0;
+	text-align: center;
+	padding: 30px;
+	margin: 0px 10px;
+	border: 50px double #292830;
+	border-radius: 11% 89% 13% 87% / 92% 12% 88% 8%;
+	background-color: #dfcaaa;
+}
+
+.text>p {
+	font-family: "Akaya Kanadaka", sans-serif;
+	font-size: 35px;
+	font-weight: 400;
+	font-style: oblique;
+	word-spacing: 15px;
+	text-align: center;
+	margin: 30px;
+	padding-bottom: 30px;
+	color: #292830;
+}
+
+.sub-title {
+	font-family: "Cedarville Cursive", sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	text-align: center;
+	text-transform: capitalize;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	overflow: hidden;
+	color: #cd3242;
+}
+
+.block {
+	width: 1500px;
+	width: 100%;
+	font-size: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: 10px;
+	padding: 30px;
+	border: 10px solid #2b2929;
+	display: block;
+	background: #9f855c;
+}
+
+.sub-title1 {
+	font-family: "Milonga", sans-serif;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: center;
+	line-height: 1.2;
+	margin: 10px auto 20px;
+	padding: 20px;
+	box-shadow: inset 0 0 8px 0px #00000080;
+	border-radius: 90% 10% 78% 22% / 15% 89% 11% 85%;
+	background: #d0c391 0%;
+	color: #a52a2a;
+}
+
+.health-list {
+	width: 1500px;
+	width: 100%;
+	font-size: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: 30px;
+}
+
+.list {
+	font-family: "Overlock", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	width: 1500px;
+	height: 400px;
+	font-style: italic;
+	vertical-align: center;
+	margin: 0 auto;
+	font-size: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	color: #fffefd;
+}
+
+.health-item {
+	width: 33.3%;
+	padding: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+	height: 400px;
+	text-align: center;
+	font-style: italic;
+	background: url("../img/lesson6img/photo-old-books-on-wooden-table.jpg");
+	margin-bottom: 10px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 25px;
+}
+
+[class*="sp"] {
+	text-decoration: line-through;
+	color: #cd329c;
+}
+
+span {
+	text-decoration: line-through;
+	text-decoration-color: red;
+	font-size: 50px;
+	color: #d0c4c4;
+}
+
+mark {
+	border-radius: 10px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.container-list1 {
+	width: 1500px;
+	width: 100%;
+	font-size: 0;
+	overflow: hidden;
+	margin: 10px;
+	padding: 30px;
+	display: inline-block;
+}
+
+.health-list1 {
+	font-size: 40px;
+	font-weight: 400;
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	width: 1400px;
+	padding: 30px;
+	margin: 20px 200px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	border-radius: 20px;
+	background-color: #dfcaaa;
+}
+
+.sub-title2 {
+	font-family: "Cedarville Cursive family", sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	text-decoration: none;
+	text-transform: capitalize;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	padding: 10px;
+	color: #da490b;
+}
+
+.list1 p {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	overflow: scroll;
+	font-style: oblique;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	color: #963f1d;
+}
+
+.list1 h4 {
+	font-family: "Cedarville Cursive family", sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	text-decoration: none;
+	font-style: oblique;
+	text-transform: lowercase;
+	color: #cd323c;
+}
+
+.text1 p {
+	font-family: "Cedarville Cursive family", sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	font-style: oblique;
+	text-transform: uppercase;
+	box-sizing: content-box;
+	padding: 30px;
+	margin: 20px;
+	letter-spacing: 5px;
+	line-height: 1.25;
+	vertical-align: middle;
+	color: #6c3232;
+	background-image: url("../img/lesson6img/fon-s-knigami-dlya-teksta.jpg");
+}
+
+.section {
+	font-weight: 400;
+	font-size: 0;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	max-width: 2000px;
+	margin: 40px 100px;
+	background-color: #f6f3f3;
+}
+
+.choose-a-bed {
+	width: 100%;
+	width: 1000px;
+	overflow: hidden;
+	font-size: 0;
+	box-sizing: border-box;
+	margin: 40px 30px;
+	min-height: auto;
+
+}
+
+.text2 {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	text-decoration: none;
+	line-height: 1.875;
+	/* LH/FS=30/16=1.875 */
+	text-transform: none;
+	width: 100%;
+	overflow: hidden;
+	max-width: 960px;
+	box-sizing: border-box;
+	margin: 40px 30px;
+}
+
+h3 {
+	font-size: 40px;
+	width: 100%;
+	width: 1000px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.2;
+	/* LH/FS=48/40=1.2 */
+	padding: 10px 20px;
+	display: block;
+}
+
+.section-livingroom {
+	width: 100%;
+	width: 1070px;
+	min-height: auto;
+	line-height: 48px;
+	margin: 0px 30px 30px;
+}
+
+.content-livingroom {
+	width: 100%;
+	width: 1070px;
+	padding: 10px;
+}
+
+.link1 {
+	width: 1070px;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+	line-height: 1.2;
+	/* LH/FS=48/40=1.2 */
+}
+
+.image-livingroom {
+	width: 1070px;
+	width: 100%;
+	height: auto;
+	margin: 40px 0px;
+	display: inline-block;
+}
+
+.image-livingroom img {
+	width: 1050px;
+	padding: 5px;
+}
+
+.text3 {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	/* LH/FS=30/16=1.875 */
+	margin-bottom: 10px;
+	width: 100%;
+	width: 1070px;
+	min-height: auto;
+	margin-bottom: 40px;
+}
+
+.text4 {
+	width: 100%;
+	width: 1070px;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	text-decoration: none;
+	line-height: 1.4;
+	/* LH/FS=28/20=1.4 */
+	margin-top: 40px;
+}
+
+.section-krovato {
+	font-weight: 400;
+	font-size: 0;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 40px 60px;
+	overflow: hidden;
+	width: 1290px;
+}
+
+.caption {
+	font-size: 40px;
+	padding-right: 526px;
+	padding-left: 526px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.krovato-content {
+	padding: 10px 10px;
+	background-color: #f6f5f3;
+	text-align: center;
+	width: 100%;
+	max-width: 300px;
+	margin-top: 0;
+	min-height: auto;
+	margin-bottom: 0;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+.krovato-content img {
+	width: 100%;
+	overflow: hidden;
+	max-width: 170px;
+	height: 170px;
+	box-sizing: border-box;
+	text-align: center;
+	vertical-align: top;
+	margin-top: 0px;
+}
+
+.krovato-content-text {
+	font-size: 26px;
+	font-style: normal;
+	text-align: center;
+	font-weight: 400;
+	line-height: 34px;
+	margin-bottom: 20px;
+	letter-spacing: 0;
+	text-transform: none;
+	width: 100%;
+	max-width: 300px;
+	margin-top: 0;
+	min-height: auto;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.krovato-content-text1 {
+	font-size: 16px;
+	font-style: normal;
+	margin-top: 0;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 0;
+	letter-spacing: 0;
+	text-transform: none;
+	width: 100%;
+	max-width: 300px;
+	margin-top: 20px;
+	min-height: auto;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.item-krovato {
+	width: 25%;
+	display: inline-block;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 26px;
+	margin-top: 10px;
+	vertical-align: top;
+	background-color: #f6f5f3;
+}
+
+.footer {
+	font-size: 0;
+	width: 100%;
+	width: 1500px;
+	box-sizing: border-box;
+	margin: 40px 30px;
+	overflow: hidden;
+	padding: 10px 20px;
+	text-align: center;
+	background-image: url("../img/lesson6img/fon-s-knigami-dlya-teksta.jpg");
+}
+
+.footer-contacts {
+	max-width: 1500px;
+}
+#some-id {
+	font-family: "Cedarville Cursive family", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 20px;
+	margin: 0 auto;
+	font-style: oblique;
+	text-transform: lowercase;
+	color: #191923;
+}
+
+.arrow-left {
+	width: 33, 33%;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 100px solid #802900;
+	border-bottom: 50px solid transparent;
+	display: inline-block;
+	padding: 5px;
+}
+
+.arrow-right {
+	width: 33, 33%;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid #802900;
+	border-bottom: 50px solid transparent;
+	display: inline-block;
+	padding: 5px;
+}
+
+.container-footer {
+	width: 33, 33%;
+	display: inline-block;
+	padding: 5px;
+}
+
+.footer a {
+	text-transform: capitalize;
+	font-size: 20px;
+	font-style: italic;
+	color: #191923;
+}
+
+.phone-list a {
+	color: #d21e1e;
+}
+
+#some-id2 {
+	font-family: "Cedarville Cursive family", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-decoration: none;
+	font-style: oblique;
+	text-transform: lowercase;
+	color: #dc143c;
+}
+
+
+/* lesson 6 */
+
+.types-of-sofas {
+	width: 100%;
+	width: 1070px;
+	font-size: 0;
+	box-sizing: border-box;
+	position: relative;
+	font-style: normal;
+	line-height: 30px;
+	letter-spacing: 0;
+	overflow: hidden;
+	margin: 0 30px;
+}
+
+.img-types-of-sofas {
+	max-width: 32px;
+	width: 10%;
+	height: 32px;
+	margin-right: 15px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+
+}
+
+.text-types-of-sofas {
+	max-width: 1023px;
+	width: 90%;
+	box-sizing: border-box;
+	margin-left: 15px;
+	display: inline-block;
+
+}
+
+.types-of-sofas-content {
+	width: 1070px;
+	font-size: 16px;
+	position: relative;
+	margin: 20px 0;
+}
+
+.section-explore {
+	width: 100%;
+	overflow: hidden;
+	width: 1440px;
+	height: 530px;
+	box-sizing: border-box;
+	margin: 40px 30px;
+	background-color: #914cff;
+}
+
+.container-frame-explore {
+	width: 100%;
+	width: 1280px;
+	height: 530px;
+	position: relative;
+	box-sizing: border-box;
+	margin: 0px 80px;
+	font-size: 0;
+	display: inline-block;
+	background-color: #914cff;
+}
+
+.content-explore {
+	width: 100%;
+	position: relative;
+}
+
+.text-explore {
+	width: 100%;
+	position: relative;
+	width: 600px;
+	height: 288;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 121px;
+	margin-bottom: 121px;
+}
+
+.caption-explore {
+	width: 100%;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 48px;
+	margin-bottom: 24px;
+	color: #fff;
+}
+
+.info-explore {
+	width: 100%;
+	max-width: 600px;
+	font-weight: 500;
+	line-height: 32px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.explore-button {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 25px;
+	margin-top: 24px;
+	border-radius: 8px 8px 8px 8px;
+	box-sizing: border-box;
+	padding: 12px 20px;
+	display: inline-block;
+	vertical-align: top;
+	color: #0d1216;
+	background-color: #fff;
+}
+
+.image-explore {
+	vertical-align: right;
+	width: 100%;
+	overflow: hidden;
+	max-width: 547px;
+	height: 530px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-left: 133px;
+	color: #fff;
+}
+
+.section-coral {
+	font-family: "Roboto", sans-serif;
+	width: 100%;
+	overflow: hidden;
+	font-size: 0;
+	width: 1920px;
+	height: 847px;
+	max-width: 1920px;
+	box-sizing: border-box;
+	margin: 40px 30px;
+	background: url("../img/lesson6img/flower.png") 1700px 350px/auto no-repeat scroll, url("../img/lesson6img/flower1.png") 0 600px/auto no-repeat scroll;
+	background-color: #f7fafb;
+}
+
+.item-coral {
+	width: 100%;
+	overflow: hidden;
+	width: 1226px;
+	height: 562px;
+	position: relative;
+	font-style: 0;
+	box-sizing: border-box;
+	margin: 220px 394px 60px 300px;
+	display: inline-block;
+	background-color: #f7fafb;
+}
+
+.content-coral {
+	width: 1226px;
+	height: 564px;
+	width: 100%;
+	position: relative;
+}
+
+.text-coral {
+	width: 100%;
+	width: 686px;
+	height: 365px;
+	overflow: hidden;
+	max-width: 1920px;
+	box-sizing: border-box;
+	vertical-align: top;
+	display: inline-block;
+	background-color: #f7fafb;
+}
+
+.caption-coral {
+	font-size: 74px;
+	font-style: normal;
+	font-weight: 300;
+	height: 55px;
+	vertical-align: bottom;
+	margin-right: 326px;
+	margin-bottom: 52px;
+	color: #000;
+}
+
+.info-coral {
+	width: 100%;
+	width: 682px;
+	height: 119px;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 55px;
+	text-transform: capitalize;
+	margin-bottom: 66px;
+	margin-top: 52px;
+	color: #000;
+}
+
+.bottom-coral {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 29px;
+	max-width: 223px;
+	height: 72px;
+	overflow: hidden;
+	font-style: 0;
+	background-color: #1e2832;
+}
+
+.box-bottom {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	vertical-align: middle;
+}
+
+.box-bottom a {
+	display: inline-block;
+	font-size: 29px;
+	font-style: normal;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+	margin-left: 5px;
+	vertical-align: middle;
+	color: #fff;
+}
+
+.box-bottom img {
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.image-coral {
+	width: 100%;
+	width: 442px;
+	height: 562px;
+	overflow: hidden;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-left: 96px;
+	border-radius: 20px;
+	background-color: #f7fafb;
+}
