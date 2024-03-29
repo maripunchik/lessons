@@ -34,7 +34,6 @@ body {
 	max-width: 1920px;
 	box-sizing: border-box;
 	overflow: hidden;
-	margin: 0px 445px;
 	background-image: url("../img/fon-s-knigami-dlya-teksta.jpg");
 }
 
@@ -144,7 +143,7 @@ div.header {
 	max-width: 1920px;
 	box-sizing: border-box;
 	overflow: hidden;
-	margin: 0px 445px 40px;
+	margin-bottom: 40px;
 	background-image: url("../img/fon-s-knigami-dlya-teksta.jpg");
 }
 
@@ -337,7 +336,7 @@ mark {
 	width: 100%;
 	box-sizing: border-box;
 	overflow: hidden;
-	margin: 0px 445px 40px;
+	margin-bottom: 40px;
 	background-color: #f8f8f8;
 }
 
@@ -551,7 +550,7 @@ mark {
 	width: 100%;
 	max-width: 1920px;
 	box-sizing: border-box;
-	margin: 0px 445px 40px;
+	margin-bottom: 40px;
 	overflow: hidden;
 	text-align: center;
 	background-image: url("../img/fon-s-knigami-dlya-teksta.jpg");
@@ -629,7 +628,7 @@ mark {
 .container-section-explore {
 	max-width: 1920px;
 	width: 100%;
-	margin: 0px 220px 40px;
+	margin-bottom: 40px;
 	box-sizing: border-box;
 	font-size: 0;
 }
@@ -733,7 +732,7 @@ mark {
 .conteiner-section-coral {
    max-width: 1920px;
 	width: 100%;
-	margin: 0px 425px 40px;
+	margin-bottom: 40px;
 	box-sizing: border-box;
 	font-size: 0;
 }
@@ -860,7 +859,7 @@ mark {
 .footer {
 	max-width: 1920px;
 	width: 100%;
-	margin: 40px 425px;
+	margin-bottom: 40px;
 	box-sizing: border-box;
 	font-size: 0;
 }
