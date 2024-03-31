@@ -519,7 +519,7 @@ mark {
 
 .footer-contacts {
 	max-width: 1920px;
-	font-size: 40px;
+	font-size: 0;
 	width: 100%;
 }
 
