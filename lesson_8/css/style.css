@@ -1,0 +1,221 @@
+/* ШРИФТИ */
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand:regular&display=swap");
+
+
+
+
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 400;
+	line-height: 1.25;
+	background-color: #888077;
+	color: #2b2929;
+}
+
+.header {
+	font-size: 0;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: 30px auto 30px;
+	text-align: center;
+	background-color: #dcc3bc;
+}
+
+.caption-header {
+	font-size: 50px;
+	margin-bottom: 30px;
+	text-transform: capitalize;
+}
+
+.caption-header-1 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.nav-list {
+	max-width: 1900px;
+	width: 100%;
+	font-size: 0;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+	color: #000000;
+}
+
+.item-nav-list {
+	display: inline-block;
+	font-size: 30px;
+	width: 33%;
+	font-style: italic;
+	border-radius: 20px;
+	padding: 10px;
+	box-shadow: 0 5px 0px #000000;
+	margin: 0 30px 0;
+	background-color: #f8f8f8;
+}
+
+.link:hover {
+	margin-top: 1px;
+	box-shadow: 0 2px 0px #000000;
+}
+
+
+.item-nav-list:hover {
+	text-decoration: underline;
+	margin-top: 1px;
+	box-shadow: 0 2px 0px #000000;
+}
+
+.page {
+	font-size: 0;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	text-align: center;
+	background-color: #dcc3bc;
+}
+
+.caption-page-1 {
+	font-size: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.list-page {
+	width: 100%;
+	font-size: 0;
+	margin: 0 auto 30px;
+	text-align: left;
+	color: #000000;
+}
+
+.list-page .item-page:not(:last-child) {
+	margin-right: 10px;
+}
+
+.item-page {
+	display: inline-block;
+	font-size: 20px;
+	width: 33%;
+	font-style: italic;
+	vertical-align: top;
+	padding: 15px;
+	border: 7px solid #888077;
+	margin: 0 auto;
+	background: linear-gradient(90deg, rgba(220, 195, 188, 1) 50%, rgba(140, 121, 129, 1) 100%);
+}
+
+.text-list {
+	margin-bottom: 30px;
+}
+
+.icons {
+	display: block;
+	text-align: center;
+	margin: 0 auto 10px;
+	background-color: #f8f8f8;
+}
+
+.icons:hover {
+	font-style: italic;
+	border-radius: 8px;
+	padding: 1px;
+	box-shadow: 0 5px 0px #e4e1e1;
+}
+
+.box-list-format {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.box-item-format {
+	max-width: 730px;
+	display: block;
+	font-size: 0;
+	width: 100%;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.image-content {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.box-item-format img:last-child {
+	max-width: 730px;
+}
+
+.image-design {
+	background-color: #f8f8f8;
+	border-radius: 10px;
+	margin: 0 20px 0;
+	text-align: center;
+}
+
+span {
+	color: #b22222;
+}
+
+.list-image-resolution {
+   width: 1900px;
+	padding-top: 30px;
+	font-size: 0;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+	background-color: #f8f8f8;
+}
+
+.list-image-resolution {
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
+	display: inline-block;
+}
+
+.caption-resolution {
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.text-resolution {
+	font-size: 20px;
+	text-transform: lowercase;
+}
+
+.footer {
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 0;
+	margin-bottom: 40px;
+}
+
+.link-footer {
+	width: 1070px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer a {
+	text-transform: capitalize;
+	font-size: 50px;
+	font-style: italic;
+	color: #29293b;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
