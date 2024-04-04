@@ -898,7 +898,7 @@ body {
 	margin: 0 auto 15px;
 }
 
-.text-practice-6:has(p) {
+.text-practice-6:has( p) {
 	background-color: #8b63cf;
 }
 
