@@ -1,0 +1,15 @@
+/* ШРИФТИ */
+
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+	font-family: "Proxima Nova", sans-serif;
+	font-weight: 400;
+	width: 100%;
+	line-height: 1;
+	color: #2b2929;
+}
+
