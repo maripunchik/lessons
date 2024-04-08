@@ -1,0 +1,500 @@
+/* ШРИФТИ */
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Quicksand:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Quicksand:wght@500&family=Smooch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Cedarville+Cursive&family=Quicksand:wght@500&family=Smooch&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+Khojki&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Milonga:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Overlock:italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+	font-family: "Proxima nova", sans-serif;
+	font-weight: 500;
+	background-color: #f6f3f3;
+	color: #2b2929;
+}
+
+.header {
+	font-size: 0;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-align: center;
+}
+
+.header-menu {
+	max-width: 1920px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.image {
+	width: 100%;
+	text-align: center;
+}
+
+.image img {
+	width: 100%;
+}
+
+.link {
+	font-size: 20px;
+	display: inline-block;
+	padding: 15px 20px;
+	color: #db7816;
+}
+
+.menu-style {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	color: #a52a2a;
+}
+
+.nav-list {
+	padding-bottom: 20px;
+}
+
+.quote {
+	width: 100%;
+	margin: 0 auto 20px;
+	text-align: center;
+	;
+}
+
+.title {
+	font-family: "Akaya Kanadaka", sans-serif;
+	text-shadow: 5px 5px 15px #ff0000;
+	font-size: 50px;
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	color: #0d1216;
+}
+
+.quote>p {
+	font-family: "Akaya Kanadaka", sans-serif;
+	text-shadow: 5px 5px 15px #ff0000;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 400;
+	letter-spacing: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #663399;
+}
+
+.image-1 {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto 20px;
+}
+
+.picture {
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.picture-1 {
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.page {
+	font-size: 0;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-align: center;
+}
+
+.section-health {
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+.text {
+	font-family: "Akaya Kanadaka", sans-serif;
+	margin-bottom: 20px;
+}
+
+.text>p {
+	font-size: 20px;
+	font-weight: 400;
+	font-style: oblique;
+	word-spacing: 10px;
+	padding-bottom: 20px;
+	color: #140180;
+}
+
+.sub-title {
+	font-family: "Cedarville Cursive", sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	text-transform: capitalize;
+	text-align: right;
+	margin: 0 auto 20px;
+	color: #cd3242;
+}
+
+.block {
+	font-size: 0;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.sub-title-1 {
+	font-family: "Milonga", sans-serif;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.2;
+
+	color: #a52a2a;
+}
+
+.list {
+	font-family: "Overlock", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-decoration: underline;
+	font-style: italic;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	color: #cd4232;
+}
+
+.health-item {
+	padding: 20px;
+	text-align: center;
+	font-style: italic;
+	background-color: #e1d7d7;
+}
+
+[class*="sp"] {
+	text-decoration: line-through;
+	color: #cd329c;
+}
+
+span {
+	text-decoration: line-through;
+	text-decoration-color: red;
+	color: #4e32cd;
+}
+
+.health-list-1 {
+	font-size: 40px;
+	font-weight: 400;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	max-width: 1290px;
+	margin: 0 auto 20px;
+	padding: 10px;
+	display: inline-block;
+	background-color: #e1d7d7;
+}
+
+.sub-title-2 {
+	font-family: "Cedarville Cursive family", sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 10px;
+	color: #da490b;
+}
+
+.list-1 p {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	overflow: scroll;
+	font-style: oblique;
+	color: hsl(17, 68%, 35%);
+}
+
+.list-1 h4 {
+	font-family: "Cedarville Cursive family", sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	text-decoration: none;
+	font-style: oblique;
+	text-transform: lowercase;
+	color: #cd323c;
+}
+
+.text-1 {
+	font-family: "Cedarville Cursive family", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	font-style: oblique;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	color: #cd3278;
+}
+
+.choose-a-bed {
+	width: 100%;
+	max-width: 960px;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+#some-id {
+	font-family: "Cedarville Cursive family", sans-serif;
+	font-weight: 400;
+	font-style: oblique;
+	text-transform: lowercase;
+
+	color: #b8860b;
+}
+
+.text-2 p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.875;
+	/* LH/FS=30/16=1.875 */
+	width: 100%;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 40px;
+	margin-bottom: 30px;
+	line-height: 1.2;
+	/* LH/FS=48/40=1.2 */
+}
+
+.section {
+	font-size: 0;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.section-livingroom h3 {
+	text-align: left;
+	line-height: 1.2;
+	/* LH/FS=48/40=1.2 */
+	font-weight: 600;
+}
+
+.section-livingroom {
+	font-weight: 400;
+	width: 100%;
+	letter-spacing: 0;
+	font-size: 40px;
+	max-width: 1070px;
+	margin: 0 auto 30px;
+}
+
+.image-livingroom {
+	margin-bottom: 40px;
+}
+
+.image-livingroom img {
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 8px 8px 8px 8px;
+}
+
+.text-3 {
+	font-size: 16px;
+	line-height: 30px;
+	/* LH/FS=30/16=1.875 */
+	width: 100%;
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+.text-3 p {
+	margin-bottom: 10px;
+}
+
+.text-4 p {
+	font-size: 20px;
+	line-height: 1.4;
+	/* LH/FS=28/20=1.4 */
+	text-align: left;
+	font-weight: 600;
+}
+
+.section-krovato {
+	font-size: 0;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.conteiner-krovato {
+	max-width: 1290px;
+	margin: 0 auto 40px;
+	width: 100%;
+}
+
+.caption {
+	font-size: 40px;
+	margin: 0 auto 40px;
+}
+
+.krovato-content {
+	background-color: #f6f5f3;
+	width: 100%;
+	max-width: 300px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+.krovato-content img {
+	width: 100%;
+	overflow: hidden;
+	width: 170px;
+	height: 170px;
+	text-align: center;
+	vertical-align: top;
+	margin: 0 auto 20px;
+}
+
+.krovato-content-text {
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 1.3;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.krovato-content-text-1 {
+	font-size: 16px;
+	line-height: 30px;
+	max-width: 300px;
+}
+
+.item-krovato {
+	display: inline-block;
+	font-size: 26px;
+	margin-right: 20px;
+	vertical-align: top;
+	background-color: #f6f5f3;
+}
+
+.section-follow-on-instagram {
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-align: center;
+	background-color: #f6f5f3;
+}
+
+.container-follow-on-instagram {
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.block-follow-on-instagram {
+	max-width: 1320px;
+	width: 100%;
+	margin: 0 auto;
+	vertical-align: top;
+	padding-top: 100px;
+	padding-bottom: 70px;
+}
+
+.caption-follow-on-instagram {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 50px;
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+.list-follow-on-instagram {
+	max-width: 1320px;
+	width: 100%;
+   display: block;
+	font-size: 0;
+	box-sizing: border-box;
+}
+
+.item-follow-on-instagram {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+.img-follow {
+	display: inline-block;
+	max-width: 200px;
+	height: 200px;
+}
+
+.footer {
+	font-size: 0;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	background-color: #f6f5f3;
+}
+
+.footer-phone {
+	max-width: 1920px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	line-height: 1.5;
+}
+
+.footer a {
+	text-transform: capitalize;
+	font-size: 30px;
+	font-style: italic;
+	color: #0000ff;
+}
+
+.phone-list a {
+	color: #d21e1e;
+}
+
+#some-id2 {
+	font-family: "Cedarville Cursive family", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	font-style: oblique;
+	text-transform: lowercase;
+	color: #dc143c;
+}
