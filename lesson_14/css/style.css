@@ -239,13 +239,18 @@ body {
 	overflow: hidden;
 }
 
+.search-header__input {
+	border-radius: 8px;
+}
+
 .search-header__input:focus {
 	outline: none;
+	
 }
 
 .search-header__icon {
 	gap: 13px;
-	max-width: 24px;
+	flex: 0 0 23px;
 }
 
 
@@ -759,7 +764,7 @@ body {
 	display: flex;
 	gap: 15px;
 	padding: 8px 30px;
-	max-width: 460px;
+	max-width: 680px;
 	width: 100%;
 	align-self: center;
 	border-radius: 8px;
