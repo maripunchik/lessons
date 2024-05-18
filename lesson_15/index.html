@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<title>Lesson 15</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<div class="top-header__info info">
+						<ul class="info__list">
+							<li class="info__item">
+								<a href="#" class="info__link">Про нас</a>
+							</li>
+							<li class="info__item">
+								<a href="#" class="info__link">Оплата</a>
+							</li>
+							<li class="info__item">
+								<a href="#" class="info__link">Доставка та збірка</a>
+							</li>
+							<li class="info__item">
+								<a href="#" class="info__link">Відгуки</a>
+							</li>
+							<li class="info__item">
+								<a href="#" class="info__link">Блог</a>
+							</li>
+							<li class="info__item">
+								<a href="#" class="info__link">Контакти</a>
+							</li>
+						</ul>
+					</div>
+					<div class="top-header__consult consult">
+						<div class="consult__info">
+							<div class="consult__text">
+								<span>Допомога і консультація:</span>
+							</div>
+							<ul class="consult__list">
+								<li class="consult__item">
+									<a target="_blank" href="tel:+380679294545" class="consult__link consult__link--whatsapp">
+										<img src="img/whatsapp.svg" alt="Іконка Whatsapp" class="consult__img">
+									</a>
+								</li>
+								<li class="consult__item">
+									<a target="_blank" href="tel:+380679294545" class="consult__link consult__link--telegram">
+										<img src="img/telegram.svg" alt="Іконка Telegram" class="consult__img">
+									</a>
+								</li>
+								<li class="consult__item">
+									<a target="_blank" href="tel:+380679294545" class="consult__link consult__link--viber">
+										<img src="img/viber.svg" alt="Іконка Viber" class="consult__img">
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="consult__language language">
+							<label class="language__label" for="language-select"></label>
+							<select name="languages" class="language__list" id="language-select">
+								<option class="language__item" selected value="ua">UA</option>
+								<option class="language__item" value="en">EN</option>
+								<option class="language__item" value="de">DE</option>
+							</select>
+						</div>
+						<form class="consult__burger">
+							<input class="consult__burger-input" id="burger-btn" type="checkbox">
+							<label class="consult__burger-btn" for="burger-btn">
+								<span></span>
+							</label>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="header__menu menu-header">
+				<div class="menu-header__container">
+					<div class="menu-header__logo">
+						<img src="img/logo-header.svg" alt="логотип компанії" class="menu-header__img">
+					</div>
+					<button type="button" class="menu-header__button">
+						<span>Каталог</span>
+					</button>
+					<form action="#" class="menu-header__search search-header">
+						<input type="search" placeholder="Пошук товарів" class="search-header__input">
+						<button type="submit" class="search-header__button">
+							<img src="img/poisk.svg" alt="іконка лупа" class="search-header__icon">
+						</button>
+					</form>
+					<div class="menu-header__contacts contacts-header">
+						<a href="+380679294545" class="contacts-header__link-tel">
+							<img src="img/phone.svg" class="icon-tel" alt="телефонна трубка">
+						</a>
+						<div class="contacts-header__box-phone-numbers box-phone-numbers">
+							<div class="box-phone-numbers__label">
+								Щодня з 9:00 до 18:00
+							</div>
+							<a class="box-phone-numbers__link" href="tel:+380679294545">
+								067 929-45-45
+							</a>
+							<div class="box-phone-numbers__items">
+								<ul class="box-phone-numbers__list">
+									<li class="box-phone-numbers__item">
+										<a href="tel:+380509294545" class="box-phone-numbers__link">050 929-45-45</a>
+									</li>
+									<li class="box-phone-numbers__item">
+										<a href="tel:+380931707545" class="box-phone-numbers__link">093 170-75-45</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="contacts-header__icon">
+							<img src="img/arrow.svg" class="icon-arrow" alt="Стрілочка вниз">
+						</div>
+					</div>
+					<div class="menu-header__search-active search-active">
+						<button class="search-active__btn">
+							<img class="search-active__icon" src="img/poisk.svg" alt="іконка лупа">
+						</button>
+					</div>
+					<div class="menu-header__choice">
+						<a href="#" class="menu-header__choice-link menu-header__choice-link--favorite">
+							<img src="img/favorite.svg" alt="Іконка вибору сердечко" class="menu-header__choice-img">
+						</a>
+						<a href="#" class="menu-header__choice-link menu-header__choice-link--basket">
+							<img src="img/basket.svg" alt="Іконка вибору корзина" class="menu-header__choice-img">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom bottom-header">
+				<div class="bottom-header__container">
+					<ul class="bottom-header__list">
+						<li class="bottom-header__item">
+							<img src="img/akcii.svg" alt="іконка зірочки" class="icon-offers">
+							<a href="#" class="bottom-header__link">Акції</a>
+						</li>
+						<li class="bottom-header__item">
+							<img src="img/sale.svg" alt="іконка розпродаж" class="icon-offers">
+							<a href="#" class="bottom-header__link">Розпродаж</a>
+						</li>
+						<li class="bottom-header__item">
+							<img src="img/credit.svg" alt="іконка купити в кредит" class="icon-offers">
+							<a href="#" class="bottom-header__link">Купити в кредит</a>
+						</li>
+					</ul>
+					<ul class="bottom-header__nav-list">
+						<li class="bottom-header__nav-item">
+							<a href="#" class="bottom-header__link">Дитяча</a>
+						</li>
+						<li class="bottom-header__nav-item">
+							<a href="#" class="bottom-header__link">Кухня</a>
+						</li>
+						<li class="bottom-header__nav-item">
+							<a href="#" class="bottom-header__link">Ванна</a>
+						</li>
+						<li class="bottom-header__nav-item">
+							<a href="#" class="bottom-header__link">Спальня</a>
+						</li>
+						<li class="bottom-header__nav-item">
+							<a href="#" class="bottom-header__link">Передпокій</a>
+						</li>
+						<li class="bottom-header__nav-item">
+							<a href="#" class="bottom-header__link">Вітальня</a>
+						</li>
+						<li class="bottom-header__nav-item">
+							<a href="#" class="bottom-header__link">Офіс</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="header__burger burger-header">
+				<div class="burger-header__container">
+
+				</div>
+			</div>
+		</header>
+		<main class="page">
+  
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<p class="footer__text">
+					© KROVATO - Технології сну - 2022. Всі права захищені.
+				</p>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
