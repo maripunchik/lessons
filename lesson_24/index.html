@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<title>Lesson 24</title>
+	<!-- <style>
+		html {
+			opacity: 0;
+		}
+	</style>  -->
+</head>
+
+<body>
+
+	<div class="mask">
+		<div class="loader"></div>
+	</div>
+	<div class="wrapper">
+		<header class="header" id="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<img src="img/js-logo.jpg" alt="логотип компанії JavaScript" class="header__img">
+				</div>
+				<ul class="header__nav-list">
+					<li class="header__nav-item">
+						<a class="header__nav-link" href="#task1">Задача №1</a>
+					</li>
+					<li class="header__nav-item">
+						<a class="header__nav-link" href="#task2">Задача №2</a>
+					</li>
+					<li class="header__nav-item">
+						<a class="header__nav-link" href="#task3">Задача №3</a>
+					</li>
+					<li class="header__nav-item">
+						<a class="header__nav-link" href="#task4">Задача №4</a>
+					</li>
+				</ul>
+				<button type="button" class="header__icon">
+					<span></span>
+				</button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__practice practice">
+				<div class="practice__container">
+					<h1 class="practice__title">
+						<!-- Основи JavaScript. Частина №4 -->
+					</h1>
+					<div class="practice__img-wrapper">
+						<img src="img/happy.gif" class="practice__img" alt="маленька дівчинка танцює">
+					</div>
+					<div class="practice__buttons-box">
+						<!-- <a href="https://uk.wikipedia.org/wiki/JavaScript" type="button" class="practice__button" target="_blank">JS</a> -->
+						<button type="button" class="practice__button">
+							Click!
+						</button>
+						<button type="button" class="practice__button">
+							<span>Click!</span>
+						</button>
+						<button type="button" class="practice__button">
+							<span>Click!</span>
+						</button>
+					</div>
+					<article class="practice__task task" id="task1">
+						<h2 class="task__title">Задача №1</h2>
+						<div class="task__question">
+							<span>Дано в html:</span> три елементи з класом <span>item</span>.
+							При кліку на кожен з елементів додати клас <span>active</span>,
+							при повторному кліку прибрати клас
+						</div>
+						<details>
+							<summary class="task__answer">Відповідь:</summary>
+							<pre>
+<code class="task__true-code">
+document.addEventListener("click", documentAction)
+const items = document.querySelectorAll('.practice__item')
+						
+function documentAction(e) {
+const elementTarget = e.target
+console.log(elementTarget)
+						
+if (elementTarget.closest('.practice__item')) {
+const currentElement = elementTarget.closest('.practice__item')
+currentElement.classList.toggle('active')
+}
+}
+</code>
+							</pre>
+							<ul class="practice__list">
+								<li class="practice__item">
+									Елемент
+								</li>
+								<li class="practice__item">
+									Елемент
+								</li>
+								<li class="practice__item">
+									Елемент
+								</li>
+							</ul>
+						</details>
+					</article>
+					<article class="practice__task task" id="task2">
+						<h2 class="task__title">Задача №2</h2>
+						<div class="task__question">
+							<span>Дано в css/scss:</span> <span>body</span> прозорий.
+							При повному завантаженню сторінки додати клас до <span>body</span> який прибирає прозорість.
+						</div>
+						<details>
+							<summary class="task__answer">Відповідь:</summary>
+							<pre>
+<code class="task__true-code">
+let body = document.querySelector('.body')
+
+window.addEventListener('load', () => {
+body.classList.add('hide')
+setTimeout(() => {
+body.remove()
+}, 1000)
+})
+</code>
+			</pre>
+						</details>
+					</article>
+					<article class="practice__task task" id="task3">
+						<h2 class="task__title">Задача №3</h2>
+						<div class="task__question">
+							<span>Дано в html: header main footer</span>.
+							При наведенні курсору на <span>header</span> змінювати колір фону у <span>footer</span>.
+							Коли курсор йде з <span>header</span> повертати початковий фон для <span>footer</span>.
+						</div>
+						<details>
+							<summary class="task__answer">Відповідь:</summary>
+							<pre>
+<code class="task__true-code">
+const header = document.querySelector('header')
+const footer = document.querySelector('footer')
+
+header.addEventListener('mouseenter', bgColorFooter)
+header.addEventListener('mouseleave', bgColorFooter)
+
+function bgColorFooter() {
+if (header && footer) {
+header.addEventListener('mouseenter', () => {
+footer.style.backgroundColor = "#f18219"
+})
+
+header.addEventListener('mouseleave', () => {
+footer.style.backgroundColor = ""
+})
+}
+}
+</code>
+   		            </pre>
+						</details>
+					</article>
+					<article class="practice__task task" id="task4">
+						<h2 class="task__title">Задача №4</h2>
+						<div class="task__question">
+							<span>Дано в html:</span> текст, елемент з класом <span>item</span>, текст. Так, що елемент з класом
+							<span>item</span> за межами в'юпорта. Створити <span>функцію</span>, яка будує інтервал який буде змінювати контент в
+							елементі <span>item</span> виводячи цифру яка збільшується на одиницю: 1 2 3 ... і т.д. Затримка між зміною числа, та
+							до якого числа має працювати інтервал має задаватись в <span>дата</span> атрибутах елемента <span>item</span>.
+							<span>Функція</span> має запускатить коли ми доскролюємо до елементу <span>item</span> (його видно), і не запускатись повторно.
+						</div>
+						<details>
+							<summary class="task__answer">Відповідь:</summary>
+							<pre>
+<code class="task__true-code">
+const options = {
+root: null,
+rootMargin: "0px 0px 0px 0px",
+threshold: 0.5,
+}
+
+const callback = (entries, observer) => {
+entries.forEach(entry => {
+
+if (entry.isIntersecting) {
+const currentItem = entry.target
+const item = currentItem.querySelector(".practice__item-count")
+
+currentItem.classList.add('animate')
+if (item) {
+const speed = parseFloat(item.dataset.speed) || 1000
+const limit = parseInt(item.dataset.limit) || 0
+let i = 0
+let timer = setInterval(() => {
+i >= limit ? clearInterval(timer) : i += 1
+item.innerHTML = i
+}, speed)
+observer.unobserve(currentItem)
+}
+} else {
+console.log('я тебе не бачу')
+}
+})
+}
+
+const observer = new IntersectionObserver(callback, options)
+
+const animElements = document.querySelectorAll('[class*="--anim"]')
+animElements.forEach(animElement => {
+observer.observe(animElement)
+})
+</code>
+							</pre>
+							<em class="task__explanation">
+								
+							</em>
+						</details>
+					</article>
+					<div class="practice__text practice__text--scroll">
+						<p>
+							JаvаSсrіpt — це динамічна, об'єктно-орієнтована мова програмування, створена Бренданом Ейхом (в той час працював
+							на
+							Netscape), задача якої заключається в тому, що код має виконуватися на стороні користувача та асинхронно
+							обмінюватися
+							даними з сервером. Основновний її функціональний обов'язок — "склеювання" складових елементів веб-сторінки:
+							зображення,
+							анімації, плагінів при умові легкості освоєння web-дизайнерами та web-програмістами початківцями.
+						</p>
+						<div class="practice__img-wrapper practice__img-wrapper--anim">
+							<img src="img/waiting.gif" class="practice__img" alt="Mister Bean waiting">
+						</div>
+						<p>
+							Варто зазначити, що незважаючи на схожість назв, мови Java та JаvаSсrіpt є двома різними мовами, що мають відмінну
+							семантику, хоча й мають схожі риси в стандартних бібліотеках та правилах іменування. Синтаксис обох мов отриманний
+							у
+							спадок від мови С, але семантика та дизайн JаvаSсrіpt є результатом впливу мов Self та Scheme. Підґрунтя Ітак,
+							почнем
+							розбиратися в історії. Колись, в далекому 1992 році, компанія Nombas почала розробляти мову програмування під
+							назвою Cmm
+							(Сі-мінус-мінус). ЇЇ функціональне призначення послужило прототипом для майбутньої JаvаSсrіpt. З часом дана мова
+							була
+							перейменована в ScriptEase, тому що початкова назва відлякувала програмістів. Під кінець розробки деякі девелопери
+							почали створювати сторінки за допомогою ScriptEase. На таких сторінках були анімації, перевірка форм, полей вводу
+							і т.
+							д. Вони називалися "Espresso Pages" і в більшості нагадували демоверсії продуктів, а не щось "серйозне".
+						</p>
+						<div class="practice__item-wrapper  practice__item-wrapper--anim">
+							<div data-speed="2000" data-limit="5" class="practice__item-count">0</div>
+						</div>
+						<p>
+							Перша рабоча версія JаvаSсrіpt (тоді називалась Mocha) розроблялась близько 8 місяців.
+							Пізніше Mocha була перейменована в LiveScript, але слово Java було популярним в той час і розробники 4 січня 1995
+							року
+							вирішили перейменувати в JаvаSсrіpt, отримавши перед тим ліцензію у Sun. Є така "легенда", яка говорить, що
+							буцімто
+							JаvаSсrіpt був створений за три тижні Бренданом Ейхом, а весь інший час команда займалась "допилюванням" мови.
+							Перший же
+							раз аналог JаvаSсrіpt (JScript), створений Microsoft, був використаний в Internet Explorer 3.0. Потім Netscape
+							виступила
+							за стандартизацію EcmaScript, в якій були зібранні напрацювання JаvаSсrіpt, JScript и ScriptEasy. Ось так і була
+							створена одна з найпопулярніших серед web-програмістів мов програмування — JаvаSсrіpt.
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<a class="footer__link" href="https://uk.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
