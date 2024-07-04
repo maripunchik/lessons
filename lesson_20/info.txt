@@ -1,0 +1,51 @@
+id="some-id"
+
+@import url("reset.css");
+p {
+   color: red;
+}
+h1 {
+	color: rgb(51, 0, 255);
+}
+a {
+   color: blue;
+}
+.lesson {
+   color: rgb(113, 139, 0);
+}
+.title {
+	color: rgb(0, 179, 255);
+}
+#some-id {
+	color: coral;
+}
+[class*="tle"] {
+   color: red;
+}
+div.text {
+	color: blue;
+}
+.page__text.text {
+	color:aquamarine;
+}
+.title,
+.text,
+li {
+	color: aqua;
+}
+.lesson a {
+	color: chocolate;
+}
+.lesson p {
+	color: blueviolet;
+}
+.lesson .blue-text {
+	color: blue;
+}
+.lesson * {
+color: aqua;
+}
+.lesson > p {
+	color: blue;
+}
+.
